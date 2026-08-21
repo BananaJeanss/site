@@ -178,17 +178,27 @@ export default async function ClubPage({ params }: Props) {
             <h1
               style={{
                 margin: "0 auto 18px",
-                maxWidth: 980,
+                maxWidth: 1500,
                 fontFamily: "var(--font-zarathustra)",
                 fontWeight: 400,
                 fontSize: "clamp(52px, 8.3vw, 114px)",
-                lineHeight: 0.93,
+                lineHeight: 1,
                 color: "var(--paper)",
               }}
             >
               {t("heroTitle1")}
               <br />
-              {t("heroTitle2")}
+              <div
+                style={{
+                  background:
+                    "linear-gradient(90deg, #ec3750 0%, #ff8c37 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                }}
+              >
+                {t("heroTitle2")}
+              </div>
             </h1>
             <p
               style={{
@@ -245,7 +255,8 @@ export default async function ClubPage({ params }: Props) {
                   display: "inline-flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  background: "linear-gradient(135deg, #338eda 0%, #33d6a6 100%)",
+                  background:
+                    "linear-gradient(135deg, #338eda 0%, #33d6a6 100%)",
                   color: "var(--paper)",
                   borderRadius: 999,
                   height: 56,
@@ -570,7 +581,9 @@ export default async function ClubPage({ params }: Props) {
             padding: "clamp(64px, 8.5vw, 106px) clamp(16px, 6vw, 80px)",
           }}
         >
-          <div style={{ maxWidth: 1120, margin: "0 auto", textAlign: "center" }}>
+          <div
+            style={{ maxWidth: 1120, margin: "0 auto", textAlign: "center" }}
+          >
             <h2
               style={{
                 margin: "0 0 14px",
