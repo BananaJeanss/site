@@ -194,8 +194,7 @@ export default async function ClubPage({ params }: Props) {
               <br />
               <div
                 style={{
-                  background:
-                    "linear-gradient(90deg, #ec3750 0%, #ff8c37 100%)",
+                  background: "linear-gradient(90deg, #ec3750 0%, #ff8c37 100%)",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                   backgroundClip: "text",
@@ -259,8 +258,7 @@ export default async function ClubPage({ params }: Props) {
                   display: "inline-flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  background:
-                    "linear-gradient(135deg, #338eda 0%, #33d6a6 100%)",
+                  background: "linear-gradient(135deg, #338eda 0%, #33d6a6 100%)",
                   color: "var(--paper)",
                   borderRadius: 999,
                   height: 56,
@@ -585,9 +583,7 @@ export default async function ClubPage({ params }: Props) {
             padding: "clamp(64px, 8.5vw, 106px) clamp(16px, 6vw, 80px)",
           }}
         >
-          <div
-            style={{ maxWidth: 1120, margin: "0 auto", textAlign: "center" }}
-          >
+          <div style={{ maxWidth: 1120, margin: "0 auto", textAlign: "center" }}>
             <h2
               style={{
                 margin: "0 0 14px",
